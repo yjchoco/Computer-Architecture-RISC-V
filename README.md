@@ -19,4 +19,4 @@ add, sub, addi, xor, or, and, xori, ori, andi, slli, srli, srai, sll, srl, sra, 
 ### Project 3
 Modifying the Spike RISC-V instruction simulator to implement the LRU replacement algorithm.
 
-modified \riscv\cachesim.cc and \riscv\cachesim.h
+modified **\riscv\cachesim.cc** and **\riscv\cachesim.h**
