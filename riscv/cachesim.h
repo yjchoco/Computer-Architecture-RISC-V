@@ -11,7 +11,7 @@
 #include <vector>
 #include <algorithm>
 
-class lfsr_t
+class lfsr_t 
 {
  public:
   lfsr_t() : reg(1) {}
