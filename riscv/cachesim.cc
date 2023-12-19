@@ -140,7 +140,7 @@ uint64_t cache_sim_t::victimize(uint64_t addr)
 
   //size_t way = lfsr.next() % ways;
   size_t lru_way = access_order[idx].back();
-  uint64_t victim = set_tags[lru_way];
+  uint64_t victim = set_tags[lru_way]
 
   set_tags[lru_way] = (addr >> idx_shift) | VALID;
 
