@@ -7,7 +7,7 @@ The program reads a binary file containing RISC-V machine code and prints the as
 Support following instructions:
 lui, auipc, jal, jalr, beq, bne, blt, bge, bltu, bgeu, lb, lh, lw, lbu, lhu, sb, sh, sw, addi, slti, sltiu, xori, ori, andi, slli, srli, srai, add, sub, sll, slt, sltu, xor, srl, sra, or, and
 
-implemented in **riscv-sim_proj1.py**
+>> implemented in **riscv-sim_proj1.py**
 
 
 ### Project 2
@@ -17,10 +17,10 @@ Implement an instruction simulator that supports a subset of RISC-V instructions
 Support following instructions:
 add, sub, addi, xor, or, and, xori, ori, andi, slli, srli, srai, sll, srl, sra, slti, slt, auipc, lui, jal, jalr, beq, bne, blt, bge, lw, sw
 
-implemented in **riscv-sim_proj2.py**
+>> implemented in **riscv-sim_proj2.py**
 
 
 ### Project 3
 Modifying the Spike RISC-V instruction simulator to implement the LRU replacement algorithm.
 
-modified **\riscv\cachesim.cc** and **\riscv\cachesim.h**
+>> modified **\riscv\cachesim.cc** and **\riscv\cachesim.h**
